@@ -1,0 +1,11 @@
+name: Jeff's Test Site
+description: Web Developer from Somewhere
+theme: jekyll-theme-cayman
+branch: gh-pages
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+  css_class: 'highlight'
