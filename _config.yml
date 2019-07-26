@@ -1,7 +1,7 @@
 name: Jeff's Test Site
 title: Jeff's Test Site
 description: Web Developer from Somewhere
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 branch: gh-pages
 
 docs_list_title: TEST NAV
