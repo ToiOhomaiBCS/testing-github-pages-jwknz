@@ -5,16 +5,13 @@ theme: jekyll-theme-minimal
 branch: gh-pages
 
 docs_list_title: TEST NAV
-docs:
-
-- title: Home
-  url: /
-
-- title: Test
-  url: /test
-
-- title: Plain
-  url: index2.html
+src:
+  - title: Home
+    url: /
+  - title: Test
+    url: /test
+  - title: Plain
+    url: index2.html
 
 kramdown:
   input: GFM
