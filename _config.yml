@@ -4,14 +4,9 @@ description: Web Developer from Somewhere
 theme: jekyll-theme-minimal
 branch: gh-pages
 
-docs_list_title: TEST NAV
-src:
-  - title: Home
-    url: /
-  - title: Test
-    url: /test
-  - title: Plain
-    url: index2.html
+relative_links:
+  enabled:     true
+  collections: false
 
 kramdown:
   input: GFM
