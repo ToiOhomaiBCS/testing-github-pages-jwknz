@@ -4,6 +4,18 @@ description: Web Developer from Somewhere
 theme: jekyll-theme-cayman
 branch: gh-pages
 
+docs_list_title: TEST NAV
+docs:
+
+- title: Home
+  url: /
+
+- title: Test
+  url: /test
+
+- title: Plain
+  url: index2.html
+
 kramdown:
   input: GFM
   hard_wrap: false
