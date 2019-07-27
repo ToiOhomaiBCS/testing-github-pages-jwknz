@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "commit": "git add . && git commit -m \"deploy it\" && git push origin master",
-    "start": "gh-pages -d .",
+    "start": "gh-pages -d _site",
     "deploy": "npm run commit && npm start"
   },
   "repository": {
