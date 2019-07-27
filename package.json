@@ -1,0 +1,25 @@
+{
+  "name": "test123",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git add . && git commit -m \"deploy it\" && git push origin master",
+    "start": "gh-pages -d .",
+    "deploy": "npm run commit && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToiOhomaiBCS/testing-github-pages-jwknz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToiOhomaiBCS/testing-github-pages-jwknz/issues"
+  },
+  "homepage": "https://github.com/ToiOhomaiBCS/testing-github-pages-jwknz#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
