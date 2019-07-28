@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "clean": "rm -rf Gemfile.lock .bundle vendor node_modules .sass-cache _site",
     "commit": "git add . && git commit -m \"deploy it\" && git push origin master",
-    "start": "gh-pages -d _site",
-    "build:prod": "bundle exec jekyll build --config _config-prod.yml",
-    "build:dev" : "bundle exec jekyll build --config _config.yml",
-    "deploy": "npm run build:prod && npm run commit && npm start"
+    "gh-pages": "gh-pages -d _site",
+    "build": "bundle exec jekyll build --config _config-prod.yml",
+    "start" : "bundle exec jekyll build --config _config.yml && live-server --no-browser --port=5500 _site",
+    "deploy": "npm run build && npm run commit && npm run gh-pages"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/ToiOhomaiBCS/testing-github-pages-jwknz#readme",
   "dependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "live-server": "^1.2.1"
   }
 }
