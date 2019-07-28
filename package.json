@@ -6,7 +6,9 @@
   "scripts": {
     "commit": "git add . && git commit -m \"deploy it\" && git push origin master",
     "start": "gh-pages -d _site",
-    "deploy": "npm run commit && npm start"
+    "build:prod": "bundle exec jekyll build --config _config-prod.yml",
+    "build:dev" : "bundle exec jekyll build --config _config.yml",
+    "deploy": "npm run build:prod && npm run commit && npm start"
   },
   "repository": {
     "type": "git",
