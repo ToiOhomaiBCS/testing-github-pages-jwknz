@@ -6,4 +6,4 @@ layout: home
 permalink: /
 ---
 
-Hello just a test
+Hello just a test - with 2 config files
